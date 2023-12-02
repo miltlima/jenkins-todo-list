@@ -1,4 +1,4 @@
-FROM python:3.10.11
+FROM python:3.13.0a1
 #Copiando os arquivos do projeto para o diretorio usr/src/app 
 COPY . /usr/src/app
 #Definindo o diretorio onde o CMD será executado e copiando o arquivo de requerimentos
